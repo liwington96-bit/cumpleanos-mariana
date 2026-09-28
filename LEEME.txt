@@ -1,0 +1,20 @@
+# Página de cumpleaños — Mi Amor ❤️
+
+## Estructura
+- index.html
+- style.css
+- script.js
+- assets/cancion.mp3
+- assets/fotos/foto_01.jpg ... foto_15.jpg
+
+## Flujo
+1. Abrir mi regalo
+2. Ver fotografías
+3. Pulsar "Continuar con mi carta ❤️"
+4. Leer la carta animada
+5. Pulsar "Tengo una sorpresa para ti 🎁"
+6. Abrir el regalo
+7. Ver el mensaje final y confeti
+
+## Fotos
+Se aceptan JPG, JPEG, PNG y WEBP. Usa los nombres foto_01, foto_02, etc.

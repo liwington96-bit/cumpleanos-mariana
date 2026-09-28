@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#05050d">
+  <title>Para Mi Amor ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <main>
+    <section class="screen hero" id="inicio">
+      <div class="glow-heart" aria-hidden="true">♥</div>
+      <p class="eyebrow">Tengo una pequeña sorpresa para ti...</p>
+      <h1>Feliz cumpleaños<br><span>Mi Amor</span> ❤️</h1>
+      <p class="intro">Preparé este pequeño rincón solamente para ti.</p>
+      <button class="primary" id="openBtn">Abrir mi regalo ✨</button>
+      <div class="scroll-hint">toca para comenzar</div>
+    </section>
+
+    <section class="screen hidden" id="recuerdos">
+      <div class="section-card">
+        <p class="eyebrow">Nuestros recuerdos</p>
+        <h2>Momentos que guardo en el corazón ❤️</h2>
+        <p class="muted">Aquí puedes colocar nuestras fotos favoritas.</p>
+        <div class="gallery" id="gallery"></div>
+        <div class="section-actions">
+          <button class="primary" id="photosNextBtn">Continuar con mi carta ❤️</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen hidden" id="carta">
+      <div class="letter">
+        <p class="eyebrow">Una carta para ti</p>
+        <h2>Para mi amor, Mariana ❤️</h2>
+        <p id="typedText"></p>
+        <button class="secondary" id="nextBtn">Tengo una sorpresa para ti 🎁</button>
+      </div>
+    </section>
+
+    <section class="screen hidden" id="sorpresa">
+      <div class="gift-wrap">
+        <p class="eyebrow">Una última cosa...</p>
+        <h2>Hay algo que quiero decirte</h2>
+        <button class="gift" id="giftBtn" aria-label="Abrir regalo">
+          <span class="lid"></span>
+          <span class="box"></span>
+          <span class="ribbon"></span>
+        </button>
+        <p class="muted">Toca el regalo ❤️</p>
+      </div>
+    </section>
+
+    <section class="screen hidden" id="final">
+      <div class="final-message">
+        <div class="final-heart">❤️</div>
+        <p class="eyebrow">28 de septiembre</p>
+        <h2>Feliz cumpleaños,<br><span>Mi Amor</span></h2>
+        <p>
+          Gracias por existir, por compartir tus días conmigo
+          y por convertir momentos simples en recuerdos especiales.
+        </p>
+        <p class="signature">Con todo mi amor ❤️</p>
+        <div class="confetti-note">✨ Que este nuevo año de tu vida esté lleno de momentos hermosos.</div>
+      </div>
+    </section>
+  </main>
+
+  <audio id="music" loop preload="none">
+    <source src="assets/cancion.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

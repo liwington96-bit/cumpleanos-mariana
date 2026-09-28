@@ -1,0 +1,1 @@
+Coloca tus fotos aquí con estos nombres: foto_01.jpg ... foto_15.jpg. También se aceptan .jpeg, .png y .webp.
